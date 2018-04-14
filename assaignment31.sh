@@ -1,5 +1,5 @@
 #!/bin/bash
-for d in $*
+for bd in $*
 do
 for f in $(ls $d/*.sh)
 do
