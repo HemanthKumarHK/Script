@@ -1,5 +1,6 @@
 #!/bin/bash
-for d in $*
+echo "test"
+for db in $*
 do
 for f in $(ls $d/*.sh)
 do
