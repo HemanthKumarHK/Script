@@ -1,0 +1,11 @@
+#!/bin/bash
+echo "First Argument $1"
+echo "Second Argument $2"
+echo "------------------"
+
+for (( i=1;i<=$2;i++ ))
+do
+echo $1
+done
+
+echo "------------------"
